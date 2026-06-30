@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Inspections & Closures</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <style>
+        body { 
+            margin: 0; 
+            padding: 0; 
+            font-family: 'Helvetica Neue', Arial, sans-serif; 
+            display: flex; 
+            flex-direction: column; 
+            height: 100vh; 
+            background-color: #f4f4f4; 
+        }
+        .header { 
+            background: white; 
+            padding: 15px 20px; 
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+            z-index: 1000; 
+        }
+        .header h2 { 
+            margin: 0 0 5px 0; 
+            font-size: 20px; 
+            color: #333; 
+        }
+        .header p { 
+            margin: 0; 
+            font-size: 13px; 
+            color: #666; 
+        }
+        #map { 
+            flex-grow: 1; 
+            width: 100%; 
+            z-index: 1; 
+        }
+        .popup-content { 
+            font-size: 14px; 
+            line-height: 1.5; 
+            font-family: sans-serif; 
+        }
+        .popup-content h4 { 
+            margin: 0 0 5px 0; 
+            font-size: 16px; 
+            color: #b30000; 
+        }
+        .read-report { 
+            display: inline-block; 
+            margin-top: 8px; 
+            font-weight: bold; 
+            color: #0056b3; 
+            text-decoration: none; 
+        }
+        .read-report:hover { 
+            text-decoration: underline; 
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h2>South Florida restaurant closures</h2>
+        <p>Here are the <span id="closureCount">{xx}</span> restaurants closed last week by the Florida Department of Public Health. Click the dot to see details.</p>
+    </div>
+
+    <div id="map"></div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script>
+        // Set the map view to perfectly target Palm Beach and Broward Counties by default
+        var map = L.map('map').setView([26.35, -80.15], 9.5);
+
+        L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
+        }).addTo(map);
+
+        // Fetch the generated data file
+        fetch('data/closures.geojson?nocache=' + new Date().getTime())
+            .then(response => response.json())
+            .then(data => {
+                
+                // Calculate the number of restaurants displayed on the map and update the header copy
+                var count = data.features ? data.features.length : 0;
+                document.getElementById('closureCount').innerText = count;
+
+                L.geoJSON(data, {
+                    pointToLayer: function(feature, latlng) {
+                        return L.circleMarker(latlng, {
+                            radius: 7,
+                            fillColor: "#b30000",
+                            color: "#ffffff",
+                            weight: 2,
+                            opacity: 1,
+                            fillOpacity: 0.8
+                        });
+                    },
+                    onEachFeature: function(feature, layer) {
+                        var props = feature.properties;
+                        var popupHTML = `
+                            <div class="popup-content">
+                                <h4>${props.name}</h4>
+                                <strong>Address:</strong> ${props.address}, ${props.city}<br>
+                                <strong>Inspection Date:</strong> ${props.date}<br>
+                                <a href="${props.url}" target="_blank" class="read-report">Read Full State Report &rarr;</a>
+                            </div>
+                        `;
+                        layer.bindPopup(popupHTML);
+                    }
+                }).addTo(map);
+            })
+            .catch(err => console.error("Error loading restaurant data:", err));
+    </script>
+</body>
+</html>
