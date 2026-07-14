@@ -76,14 +76,20 @@
             attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
         }).addTo(map);
 
-        // Fetch the generated data file
+        // Fetch the generated data file with a cache-buster
         fetch('data/closures.geojson?nocache=' + new Date().getTime())
             .then(response => response.json())
             .then(data => {
                 
-                // Calculate the number of restaurants displayed on the map and update the header copy
+                // Calculate the number of restaurants displayed on the map
                 var count = data.features ? data.features.length : 0;
-                document.getElementById('closureCount').innerText = count;
+                
+                // Translate 0-9 into AP Style words, leave 10+ as numerals
+                var apNumbers = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine'];
+                var displayCount = count < 10 ? apNumbers[count] : count;
+
+                // Update the header copy
+                document.getElementById('closureCount').innerText = displayCount;
 
                 L.geoJSON(data, {
                     pointToLayer: function(feature, latlng) {
