@@ -2,6 +2,7 @@ import os
 import requests
 import csv
 import json
+import re
 from io import StringIO
 from geopy.geocoders import Nominatim
 from geopy.extra.rate_limiter import RateLimiter
@@ -23,10 +24,11 @@ def main():
         features = []
         # Set up the free OpenStreetMap Geocoder
         geolocator = Nominatim(user_agent="sunsentinel_restaurant_tracker")
-        # 1.5-second delay between lookups so the free server doesn't block us
+        # Add a 1.5-second delay between lookups so the server doesn't block the bot
         geocode = RateLimiter(geolocator.geocode, min_delay_seconds=1.5)
         
         for row in reader:
+            # Skip empty rows
             if len(row) < 9:
                 continue
                 
@@ -44,7 +46,19 @@ def main():
             print(f"Geocoding: {name} at {full_address}")
             
             try:
+                # 1st Try: Look up the exact address
                 location = geocode(full_address)
+                
+                # 2nd Try: Fallback if the first try fails due to suite/unit numbers
+                if not location:
+                    # Strip out common unit indicators (Ste, Suite, #, Unit, Apt)
+                    cleaned_address = re.split(r'(?i)\s*(ste|suite|#|unit|apt|room)\s+', address)[0].strip()
+                    fallback_address = f"{cleaned_address}, {city}, FL"
+                    
+                    if fallback_address != full_address:
+                        print(f"  ⚠️ Retrying simplified address: {fallback_address}")
+                        location = geocode(fallback_address)
+
                 if location:
                     feature = {
                         "type": "Feature",
@@ -54,7 +68,7 @@ def main():
                         },
                         "properties": {
                             "name": name,
-                            "address": address,
+                            "address": address, # Keep the original address for the popup display
                             "city": city,
                             "date": date,
                             "url": report_url
@@ -66,6 +80,7 @@ def main():
             except Exception as e:
                 print(f"  ❌ Error geocoding {full_address}: {e}")
                 
+        # Save the map-ready file
         geojson = {
             "type": "FeatureCollection",
             "features": features
