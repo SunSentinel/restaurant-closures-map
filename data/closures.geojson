@@ -1,1 +1,203 @@
-{"type": "FeatureCollection", "features": [{"type": "Feature", "geometry": {"type": "Point", "coordinates": [-80.1042802, 26.1269256]}, "properties": {"name": "Lona", "address": "321 N Fort Lauderdale Beach Blvd", "city": "Fort Lauderdale", "date": "06/22/2026", "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=6013109"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-80.1143417, 26.1380834]}, "properties": {"name": "P F Chang's China Bistro", "address": "2418 E Sunrise Blvd", "city": "Fort Lauderdale", "date": "06/23/2026", "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=3294625"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-80.074508, 26.550748]}, "properties": {"name": "Firehouse Subs", "address": "975 Gateway Blvd #113", "city": "Boynton Beach", "date": "06/22/2026", "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=6332685"}}]}
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.2019981,
+          26.118037
+        ]
+      },
+      "properties": {
+        "name": "Miami Subs",
+        "address": "210 Sw 40th Ave",
+        "city": "Plantation",
+        "date": "07/13/2026",
+        "violations": "1",
+        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=2572479"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.1073511,
+          26.2098211
+        ]
+      },
+      "properties": {
+        "name": "Las Carnitas Latin Cuisine",
+        "address": "3305 N Federal Highway",
+        "city": "Pompano Beach",
+        "date": "07/17/2026",
+        "violations": "1",
+        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=8009494"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.2049761,
+          26.2158508
+        ]
+      },
+      "properties": {
+        "name": "El Rancho Bakery And Restaurant",
+        "address": "6023 Kimberly Blvd",
+        "city": "North Lauderdale",
+        "date": "07/15/2026",
+        "violations": "7",
+        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=8935243"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.2739691,
+          26.1935898
+        ]
+      },
+      "properties": {
+        "name": "Asahi Restaurant",
+        "address": "9240 W Commercial Blvd",
+        "city": "Sunrise",
+        "date": "07/15/2026",
+        "violations": "8",
+        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=7656665"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.146737,
+          26.173214
+        ]
+      },
+      "properties": {
+        "name": "Quates Mexican Restaurant",
+        "address": "3701 N Andrews Ave",
+        "city": "Oakland Park",
+        "date": "07/16/2026",
+        "violations": "6",
+        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=6659378"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.0903328,
+          26.3658642
+        ]
+      },
+      "properties": {
+        "name": "Tom Sawyer Restaurant & Pastry Shop",
+        "address": "1759 Nw 2nd Ave",
+        "city": "Boca Raton",
+        "date": "07/15/2026",
+        "violations": "14",
+        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=3795161"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.0677456,
+          26.4615737
+        ]
+      },
+      "properties": {
+        "name": "Amar Sandwich Shop",
+        "address": "522 E Atlantic Ave",
+        "city": "Delray Beach",
+        "date": "07/17/2026",
+        "violations": "3",
+        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=9492673"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.2028743,
+          26.6692646
+        ]
+      },
+      "properties": {
+        "name": "The Original Pancake House",
+        "address": "105 S State Road 7",
+        "city": "Royal Palm Beach",
+        "date": "07/16/2026",
+        "violations": "3",
+        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=6881218"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.071183,
+          26.4577462
+        ]
+      },
+      "properties": {
+        "name": "Casting Caribbean Resto",
+        "address": "209 Se 2nd Ave",
+        "city": "Delray Beach",
+        "date": "07/13/2026",
+        "violations": "5",
+        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=9174980"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.0889039,
+          26.6257441
+        ]
+      },
+      "properties": {
+        "name": "Little Caesars Pizza",
+        "address": "3493 S Congress Ave",
+        "city": "Palm Springs",
+        "date": "07/15/2026",
+        "violations": "3",
+        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=9895155"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.0864913,
+          26.3426104
+        ]
+      },
+      "properties": {
+        "name": "Anthony's Coal Fired Pizza",
+        "address": "851 S Federal Highway",
+        "city": "Boca Raton",
+        "date": "07/13/2026",
+        "violations": "6",
+        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=9614112"
+      }
+    }
+  ]
+}

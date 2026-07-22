@@ -69,7 +69,7 @@
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script>
-        // Set the map view to perfectly target Palm Beach and Broward Counties by default
+        // Default map view (fallback before data loads)
         var map = L.map('map').setView([26.35, -80.15], 9.5);
 
         L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
@@ -91,7 +91,7 @@
                 // Update the header copy
                 document.getElementById('closureCount').innerText = displayCount;
 
-                L.geoJSON(data, {
+                var closuresLayer = L.geoJSON(data, {
                     pointToLayer: function(feature, latlng) {
                         return L.circleMarker(latlng, {
                             radius: 7,
@@ -115,6 +115,11 @@
                         layer.bindPopup(popupHTML);
                     }
                 }).addTo(map);
+
+                // Auto-fit the map view to dynamically frame all mapped points
+                if (count > 0) {
+                    map.fitBounds(closuresLayer.getBounds(), { padding: [30, 30] });
+                }
             })
             .catch(err => console.error("Error loading restaurant data:", err));
     </script>
