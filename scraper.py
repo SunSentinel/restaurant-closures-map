@@ -13,7 +13,8 @@ from geopy.exc import GeocoderTimedOut
 # ==========================================
 def normalize_street_name(address):
     """
-    Cleans up addresses so Nominatim can read them.
+    Cleans up addresses so Nominatim can read them:
+    - Removes secondary unit designations (e.g., "Ste 20", "Suite B", "#101", "Unit 5")
     - Removes periods (e.g., "Nw." -> "NW")
     - Converts bare numbers to ordinals ONLY if followed by street designators
       (e.g., "2 Ave" -> "2nd Ave"), preserving highways (e.g., "State Road 7").
@@ -21,10 +22,15 @@ def normalize_street_name(address):
     if not address:
         return ""
     
-    # Remove periods
-    address = address.replace('.', '')
+    # 1. Strip suite / unit / apartment designators and anything following them
+    # Matches: Ste 20, Suite 100, Unit B, Apt 4, #300, Bldg 2, etc.
+    unit_pattern = r'\b(Ste|Suite|Unit|Apt|Apartment|Bldg|Building|Fl|Floor|Space|Spc|Trlr|#)\b.*$'
+    address = re.sub(unit_pattern, '', address, flags=re.IGNORECASE)
     
-    # Common street suffixes where a number preceding them should be ordinalized
+    # 2. Remove periods and trailing commas/spaces
+    address = address.replace('.', '').strip(' ,')
+    
+    # 3. Common street suffixes where a number preceding them should be ordinalized
     street_types = r'(Ave|Avenue|St|Street|Ter|Terrace|Ct|Court|Pl|Place|Ln|Lane|Way|Cir|Circle|Dr|Drive|Blvd|Boulevard)'
     
     def replace_ordinal(match):
@@ -39,7 +45,7 @@ def normalize_street_name(address):
     # Only convert numbers that immediately precede a street type
     address = re.sub(r'\b(\d+)\s+' + street_types + r'\b', replace_ordinal, address, flags=re.IGNORECASE)
     
-    return address.strip()
+    return address.strip(' ,')
 
 # ==========================================
 # 2. FETCH FROM PUBLIC GOOGLE SHEET
