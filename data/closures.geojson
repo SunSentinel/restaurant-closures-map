@@ -42,8 +42,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -80.0783624,
-          26.3673825
+          -80.0783421,
+          26.3674222
         ]
       },
       "properties": {
@@ -53,24 +53,6 @@
         "date": "07/21/2026",
         "violations": "10",
         "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=7197533"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -80.2017647,
-          26.6290684
-        ]
-      },
-      "properties": {
-        "name": "Palomino Gardens Retirement",
-        "address": "9885 Palomino Drive",
-        "city": "Lake Worth Beach",
-        "date": "07/21/2026",
-        "violations": "3",
-        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=8463726"
       }
     }
   ]
