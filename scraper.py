@@ -14,23 +14,24 @@ from geopy.exc import GeocoderTimedOut
 def normalize_street_name(address):
     """
     Cleans up addresses so Nominatim can read them:
-    - Removes secondary unit designations (e.g., "Ste 20", "Suite B", "#101", "Unit 5")
-    - Removes periods (e.g., "Nw." -> "NW")
-    - Converts bare numbers to ordinals ONLY if followed by street designators
-      (e.g., "2 Ave" -> "2nd Ave"), preserving highways (e.g., "State Road 7").
+    - Strips shopping center/mall names, food court descriptors, and secondary units.
+    - Standardizes cardinal directionals (NE, NW, SE, SW).
+    - Converts bare street numbers to ordinals (e.g., "36 St" -> "36th St").
     """
     if not address:
         return ""
     
-    # 1. Strip suite / unit / apartment designators and anything following them
-    # Matches: Ste 20, Suite 100, Unit B, Apt 4, #300, Bldg 2, etc.
-    unit_pattern = r'\b(Ste|Suite|Unit|Apt|Apartment|Bldg|Building|Fl|Floor|Space|Spc|Trlr|#)\b.*$'
+    # 1. Remove everything after common secondary designations, food courts, plazas, or extra commas
+    unit_pattern = r'(\b(Ste|Suite|Unit|Apt|Apartment|Bldg|Building|Fl|Floor|Space|Spc|Trlr|Market|Food Court|Bay|#)\b.*$|,.*$)'
     address = re.sub(unit_pattern, '', address, flags=re.IGNORECASE)
     
-    # 2. Remove periods and trailing commas/spaces
+    # 2. Clean up periods and excess spaces
     address = address.replace('.', '').strip(' ,')
     
-    # 3. Common street suffixes where a number preceding them should be ordinalized
+    # 3. Capitalize standard directional prefixes/suffixes (NE, NW, SE, SW)
+    address = re.sub(r'\b(ne|nw|se|sw)\b', lambda m: m.group(1).upper(), address, flags=re.IGNORECASE)
+    
+    # 4. Convert bare numbers to ordinals ONLY when followed by street types
     street_types = r'(Ave|Avenue|St|Street|Ter|Terrace|Ct|Court|Pl|Place|Ln|Lane|Way|Cir|Circle|Dr|Drive|Blvd|Boulevard)'
     
     def replace_ordinal(match):
@@ -42,7 +43,7 @@ def normalize_street_name(address):
             sfx = {1: 'st', 2: 'nd', 3: 'rd'}.get(num % 10, 'th')
         return f"{num}{sfx} {suffix_word}"
 
-    # Only convert numbers that immediately precede a street type
+    # Match numbers followed by street types (e.g. "36 St" -> "36th St")
     address = re.sub(r'\b(\d+)\s+' + street_types + r'\b', replace_ordinal, address, flags=re.IGNORECASE)
     
     return address.strip(' ,')
@@ -65,7 +66,6 @@ reader = csv.DictReader(io.StringIO(csv_data))
 raw_restaurants = []
 
 for row in reader:
-    # Mapped to your exact Google Sheet column headers
     name = row.get("Business (DBA-Does Business As) Name", "").strip()
     address = row.get("Location Address", "").strip()
     
@@ -97,6 +97,13 @@ for restaurant in raw_restaurants:
     try:
         location = geolocator.geocode(search_string)
         
+        # FALLBACK: If specific house number/address fails, try geocoding street name + city
+        if not location:
+            simplified_address = re.sub(r'^\d+[-\d]*\s+', '', clean_address)
+            fallback_search = f"{simplified_address}, {restaurant['city']}, FL"
+            print(f"  -> Retrying simplified search: {fallback_search}")
+            location = geolocator.geocode(fallback_search)
+
         if location:
             feature = {
                 "type": "Feature",
