@@ -6,17 +6,53 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -80.1372999,
-          26.1290287
+          -80.3208364,
+          26.1516504
         ]
       },
       "properties": {
-        "name": "Craft Ft Lauderdale",
-        "address": "551 N Federal Highway #600",
+        "name": "Haagen Dazs",
+        "address": "12801 West Sunrise Blvd",
+        "city": "Sunrise",
+        "date": "07/29/2026",
+        "violations": "3",
+        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=9681013"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.1266194,
+          26.1668156
+        ]
+      },
+      "properties": {
+        "name": "Rendez-Vous",
+        "address": "1576 E Oakland Park Blvd",
+        "city": "Oakland Park",
+        "date": "07/27/2026",
+        "violations": "3",
+        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=3192557"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.1482742,
+          26.2040001
+        ]
+      },
+      "properties": {
+        "name": "Lucky Cat Street Eatery",
+        "address": "6322 N Andrews Ave",
         "city": "Fort Lauderdale",
-        "date": "07/21/2026",
-        "violations": "2",
-        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=9815697"
+        "date": "07/28/2026",
+        "violations": "9",
+        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=7421549"
       }
     },
     {
@@ -24,17 +60,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -80.2461052,
-          26.6726523
+          -80.1178097,
+          26.2749535
         ]
       },
       "properties": {
-        "name": "Raja",
-        "address": "12794 Forest Hill Blvd",
-        "city": "Wellington",
-        "date": "07/21/2026",
-        "violations": "5",
-        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=7425590"
+        "name": "Gourmet Creole",
+        "address": "416 Sample Road",
+        "city": "Pompano Beach",
+        "date": "07/27/2026",
+        "violations": "3",
+        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=7744440"
       }
     },
     {
@@ -42,17 +78,35 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -80.0783421,
-          26.3674222
+          -80.0675122,
+          26.6168037
         ]
       },
       "properties": {
-        "name": "Sushi Yan",
-        "address": "1929 N Federal Highway",
+        "name": "Brass Monkey Sports Bar And Grill",
+        "address": "7781 Lake Worth Road",
+        "city": "Lake Worth Beach",
+        "date": "07/28/2026",
+        "violations": "8",
+        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=6704775"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.0714035,
+          26.3864076
+        ]
+      },
+      "properties": {
+        "name": "Seabra Bakery & Cafe",
+        "address": "465-475 NE Spanish River Blvd",
         "city": "Boca Raton",
-        "date": "07/21/2026",
-        "violations": "10",
-        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=7197533"
+        "date": "07/27/2026",
+        "violations": "12",
+        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=8679957"
       }
     }
   ]
