@@ -42,8 +42,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -80.0838635,
-          26.3477202
+          -80.0838654,
+          26.3477213
         ]
       },
       "properties": {
@@ -89,24 +89,6 @@
         "date": "08/10/2026",
         "violations": "2",
         "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=5974263"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -80.0903766,
-          26.5267606
-        ]
-      },
-      "properties": {
-        "name": "Chuck E Cheese 781",
-        "address": "244 N Congress Ave",
-        "city": "Boynton Beach",
-        "date": "08/14/2026",
-        "violations": "2",
-        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=8012250"
       }
     },
     {
@@ -168,8 +150,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -80.0663608,
-          26.6167659
+          -80.0653634,
+          26.6166367
         ]
       },
       "properties": {
@@ -186,8 +168,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -80.0710432,
-          26.8445563
+          -80.0710462,
+          26.8445573
         ]
       },
       "properties": {
