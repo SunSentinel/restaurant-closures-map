@@ -6,17 +6,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -80.3208364,
-          26.1516504
+          -80.253185,
+          26.1103177
         ]
       },
       "properties": {
-        "name": "Haagen Dazs",
-        "address": "12801 West Sunrise Blvd",
-        "city": "Sunrise",
-        "date": "07/29/2026",
+        "name": "Rens Sushi Japanese And Thai Cusine",
+        "address": "801 S University Drive #C112",
+        "city": "Plantation",
+        "date": "08/14/2026",
         "violations": "3",
-        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=9681013"
+        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=9540574"
       }
     },
     {
@@ -24,71 +24,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -80.1266194,
-          26.1668156
+          -80.0563272,
+          26.6438689
         ]
       },
       "properties": {
-        "name": "Rendez-Vous",
-        "address": "1576 E Oakland Park Blvd",
-        "city": "Oakland Park",
-        "date": "07/27/2026",
-        "violations": "3",
-        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=3192557"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -80.1482742,
-          26.2040001
-        ]
-      },
-      "properties": {
-        "name": "Lucky Cat Street Eatery",
-        "address": "6322 N Andrews Ave",
-        "city": "Fort Lauderdale",
-        "date": "07/28/2026",
-        "violations": "9",
-        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=7421549"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -80.1178097,
-          26.2749535
-        ]
-      },
-      "properties": {
-        "name": "Gourmet Creole",
-        "address": "416 Sample Road",
-        "city": "Pompano Beach",
-        "date": "07/27/2026",
-        "violations": "3",
-        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=7744440"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -80.0675122,
-          26.6168037
-        ]
-      },
-      "properties": {
-        "name": "Brass Monkey Sports Bar And Grill",
-        "address": "7781 Lake Worth Road",
+        "name": "Le Berger Restaurant",
+        "address": "1216 S Dixie Highway",
         "city": "Lake Worth Beach",
-        "date": "07/28/2026",
-        "violations": "8",
-        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=6704775"
+        "date": "08/12/2026",
+        "violations": "5",
+        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=6425677"
       }
     },
     {
@@ -96,17 +42,161 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -80.0714035,
-          26.3864076
+          -80.0838635,
+          26.3477202
         ]
       },
       "properties": {
-        "name": "Seabra Bakery & Cafe",
-        "address": "465-475 NE Spanish River Blvd",
+        "name": "The Standard Cuisine & Cocktails",
+        "address": "187 SE Mizner Blvd",
         "city": "Boca Raton",
-        "date": "07/27/2026",
-        "violations": "12",
-        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=8679957"
+        "date": "08/12/2026",
+        "violations": "1",
+        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=7722897"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.0732132,
+          26.4625779
+        ]
+      },
+      "properties": {
+        "name": "Dada",
+        "address": "52 N Swinton Ave",
+        "city": "Delray Beach",
+        "date": "08/12/2026",
+        "violations": "2",
+        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=2230894"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.0624844,
+          26.6168507
+        ]
+      },
+      "properties": {
+        "name": "Plato Loco Take-Out",
+        "address": "1414 Lucerne Ave",
+        "city": "Lake Worth Beach",
+        "date": "08/10/2026",
+        "violations": "2",
+        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=5974263"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.0903766,
+          26.5267606
+        ]
+      },
+      "properties": {
+        "name": "Chuck E Cheese 781",
+        "address": "244 N Congress Ave",
+        "city": "Boynton Beach",
+        "date": "08/14/2026",
+        "violations": "2",
+        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=8012250"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.0768603,
+          26.9393411
+        ]
+      },
+      "properties": {
+        "name": "Burger Shack",
+        "address": "617 N A1a",
+        "city": "Jupiter",
+        "date": "08/10/2026",
+        "violations": "6",
+        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=5633167"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.1107108,
+          27.030313
+        ]
+      },
+      "properties": {
+        "name": "Thai Lotus Restaurant",
+        "address": "201 N Us Highway 1",
+        "city": "Jupiter",
+        "date": "08/13/2026",
+        "violations": "5",
+        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=9122428"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.0556397,
+          26.6159449
+        ]
+      },
+      "properties": {
+        "name": "Kanto Asian Street Food",
+        "address": "720 Lake Ave",
+        "city": "Lake Worth Beach",
+        "date": "08/11/2026",
+        "violations": "9",
+        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=9003004"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.065232,
+          26.6167648
+        ]
+      },
+      "properties": {
+        "name": "Yens Kitchen",
+        "address": "7364 Lake Worth Road",
+        "city": "Lake Worth Beach",
+        "date": "08/10/2026",
+        "violations": "5",
+        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=7654081"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.0710432,
+          26.8445563
+        ]
+      },
+      "properties": {
+        "name": "Burgerfi",
+        "address": "2466 Pga Blvd",
+        "city": "Palm Beach Gardens",
+        "date": "08/14/2026",
+        "violations": "4",
+        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=9834517"
       }
     }
   ]
