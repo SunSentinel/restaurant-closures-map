@@ -6,17 +6,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -80.1491737,
-          26.2050285
+          -80.2322329,
+          26.0722081
         ]
       },
       "properties": {
-        "name": "Longhorn Steakhouse Of Cypress Creek # 5085",
-        "address": "6225 N Andrews Ave",
-        "city": "Fort Lauderdale",
-        "date": "08/21/2026",
-        "violations": "1",
-        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=2533064"
+        "name": "Subway 604",
+        "address": "4002 SW 64th Ave",
+        "city": "Davie",
+        "date": "09/03/2026",
+        "violations": "3",
+        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=9970844"
       }
     },
     {
@@ -24,17 +24,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -80.1493628,
-          26.2037576
+          -80.0998669,
+          26.319922
         ]
       },
       "properties": {
-        "name": "Moonlite Diner",
-        "address": "6201 N Andrews Ave",
-        "city": "Fort Lauderdale",
-        "date": "08/20/2026",
-        "violations": "6",
-        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=7705325"
+        "name": "Nicks Pizza",
+        "address": "137 NE 2nd Ave",
+        "city": "Deerfield Beach",
+        "date": "09/03/2026",
+        "violations": "2",
+        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=2511510"
       }
     },
     {
@@ -42,17 +42,35 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -80.1587902,
-          26.1884778
+          -80.0781685,
+          26.3159398
         ]
       },
       "properties": {
-        "name": "Family Kitchen Restaurant And Catering",
-        "address": "3134 W Commercial Blvd",
-        "city": "Fort Lauderdale",
-        "date": "08/18/2026",
+        "name": "La Riviera",
+        "address": "123 NE 20th Ave",
+        "city": "Deerfield Beach",
+        "date": "09/03/2026",
+        "violations": "3",
+        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=9715932"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.251687,
+          26.1853076
+        ]
+      },
+      "properties": {
+        "name": "Asados El Paisa Broward",
+        "address": "4828 N University Drive",
+        "city": "Lauderhill",
+        "date": "08/31/2026",
         "violations": "4",
-        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=8902030"
+        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=6658459"
       }
     },
     {
@@ -60,35 +78,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -80.0943854,
-          26.7590648
+          -80.2046558,
+          26.1360675
         ]
       },
       "properties": {
-        "name": "Jerk Island Take Out Rest",
-        "address": "1739 W 45th St",
-        "city": "West Palm Beach",
-        "date": "08/19/2026",
-        "violations": "4",
-        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=2228500"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -80.1124612,
-          26.8379546
-        ]
-      },
-      "properties": {
-        "name": "The Cooper",
-        "address": "4610 Pga Blvd",
-        "city": "Palm Beach Gardens",
-        "date": "08/19/2026",
+        "name": "Olivo Mediterranean Cuisine",
+        "address": "7815 W Sunrise Blvd",
+        "city": "Plantation",
+        "date": "09/03/2026",
         "violations": "5",
-        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=9044554"
+        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=8727949"
       }
     },
     {
@@ -96,35 +96,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -80.0876107,
-          26.8085218
+          -80.0846932,
+          26.3547177
         ]
       },
       "properties": {
-        "name": "La Granja Restaurant",
-        "address": "3301 Northlake Blvd",
-        "city": "Palm Beach Gardens",
-        "date": "08/18/2026",
-        "violations": "6",
-        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=4392227"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -80.0943452,
-          26.6177757
-        ]
-      },
-      "properties": {
-        "name": "El Encuentro Restaurant",
-        "address": "3068  Lake Worth Road #1",
-        "city": "Palm Springs",
-        "date": "08/20/2026",
-        "violations": "5",
-        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=7839022"
+        "name": "Kapow! Noodle Bar",
+        "address": "402 Plaza Real",
+        "city": "Boca Raton",
+        "date": "09/03/2026",
+        "violations": "8",
+        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=8349644"
       }
     }
   ]
