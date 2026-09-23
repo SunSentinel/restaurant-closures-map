@@ -6,53 +6,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -80.2387004,
-          26.1230332
+          -80.1151523,
+          26.2703427
         ]
       },
       "properties": {
-        "name": "Riverside Market Plantation",
-        "address": "6900 Cypress Road",
-        "city": "Plantation",
-        "date": "09/08/2026",
-        "violations": "1",
-        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=6537395"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -80.1011087,
-          26.8089322
-        ]
-      },
-      "properties": {
-        "name": "One Thai Restaurant",
-        "address": "4232 Northlake Blvd",
-        "city": "Palm Beach Gardens",
-        "date": "09/08/2026",
-        "violations": "5",
-        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=2227884"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -80.0723624,
-          26.6912793
-        ]
-      },
-      "properties": {
-        "name": "Ihop 36-157",
-        "address": "1503 Belvedere Road",
-        "city": "West Palm Beach",
-        "date": "09/10/2026",
+        "name": "Au-Bon-Gout Restaurant",
+        "address": "5273 N Dixie  Highway",
+        "city": "Pompano Beach",
+        "date": "09/15/2026",
         "violations": "4",
-        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=5877541"
+        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=6486240"
       }
     },
     {
@@ -60,17 +24,107 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -80.0852054,
-          26.3481149
+          -80.0952918,
+          26.3049637
         ]
       },
       "properties": {
-        "name": "Chops Lobster Bar",
-        "address": "101 Plaza Real S",
-        "city": "Boca Raton",
-        "date": "09/08/2026",
+        "name": "PizzaPiez",
+        "address": "614 SE 10th St",
+        "city": "Deerfield Beach",
+        "date": "09/15/2026",
+        "violations": "2",
+        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=6656520"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.1366502,
+          26.1265368
+        ]
+      },
+      "properties": {
+        "name": "Vale Healthy Kitchen",
+        "address": "420 N Federal Highway",
+        "city": "Fort Lauderdale",
+        "date": "09/15/2026",
+        "violations": "1",
+        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=7195413"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.1598615,
+          26.0527046
+        ]
+      },
+      "properties": {
+        "name": "CT Cantina & Taqueria",
+        "address": "176 N Pointe Drive",
+        "city": "Dania Beach",
+        "date": "09/16/2026",
         "violations": "7",
-        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=3353170"
+        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=8007142"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.1678375,
+          26.3680072
+        ]
+      },
+      "properties": {
+        "name": "818 Shanghai",
+        "address": "7860 Glades Road",
+        "city": "Boca Raton",
+        "date": "09/16/2026",
+        "violations": "11",
+        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=8768655"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.0647953,
+          26.4615853
+        ]
+      },
+      "properties": {
+        "name": "Deck 84",
+        "address": "840 E Atlantic Ave",
+        "city": "Delray Beach",
+        "date": "09/17/2026",
+        "violations": "6",
+        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=4264226"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.0517931,
+          26.7134827
+        ]
+      },
+      "properties": {
+        "name": "Rivales Taqueria & Craft Bar",
+        "address": "106 N Olive Ave",
+        "city": "West Palm Beach",
+        "date": "09/14/2026",
+        "violations": "5",
+        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=6663396"
       }
     }
   ]
