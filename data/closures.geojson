@@ -6,53 +6,53 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -80.2292341,
-          26.7077134
+          -80.1108849,
+          26.1671631
         ]
       },
       "properties": {
-        "name": "Los Agaves Mexican Restaurant",
-        "address": "1179 Royal Palm Beach Blvd",
-        "city": "Royal Palm Beach",
-        "date": "09/24/2026",
-        "violations": "5",
-        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=8094267"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -80.069762,
-          26.5723333
-        ]
-      },
-      "properties": {
-        "name": "The Hive Waterfront Restaurant & Tiki",
-        "address": "2810 Hypoluxo Rd",
-        "city": "Lantana",
-        "date": "09/23/2026",
-        "violations": "8",
-        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=8110607"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -80.10142,
-          26.3931
-        ]
-      },
-      "properties": {
-        "name": "Shish Grill",
-        "address": "690 Yamato Rd",
-        "city": "Boca Raton",
-        "date": "09/22/2026",
+        "name": "Bayview Diner",
+        "address": "2712 E Oakland Park Blvd",
+        "city": "Fort Lauderdale",
+        "date": "09/28/2026",
         "violations": "10",
-        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=9366512"
+        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=3004068"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.2543483,
+          26.0665639
+        ]
+      },
+      "properties": {
+        "name": "Chicken Guy",
+        "address": "4301 S University Drive",
+        "city": "Davie",
+        "date": "09/30/2026",
+        "violations": "4",
+        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=9349062"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.2182527,
+          26.0465413
+        ]
+      },
+      "properties": {
+        "name": "Brandon Asian Cuisine",
+        "address": "6417 Stirling Road",
+        "city": "Davie",
+        "date": "10/01/2026",
+        "violations": "4",
+        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=6291687"
       }
     }
   ]
