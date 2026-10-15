@@ -6,17 +6,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -80.1108849,
-          26.1671631
+          -80.2018098,
+          26.2690049
         ]
       },
       "properties": {
-        "name": "Bayview Diner",
-        "address": "2712 E Oakland Park Blvd",
-        "city": "Fort Lauderdale",
-        "date": "09/28/2026",
-        "violations": "10",
-        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=3004068"
+        "name": "La Union Restaurant",
+        "address": "998 S State Rd 7",
+        "city": "Margate",
+        "date": "10/05/2026",
+        "violations": "12",
+        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=6937197"
       }
     },
     {
@@ -24,17 +24,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -80.2543483,
-          26.0665639
+          -80.3565045,
+          26.0295605
         ]
       },
       "properties": {
-        "name": "Chicken Guy",
-        "address": "4301 S University Drive",
+        "name": "China One",
+        "address": "15711 Sheridan St",
         "city": "Davie",
-        "date": "09/30/2026",
-        "violations": "4",
-        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=9349062"
+        "date": "10/07/2026",
+        "violations": "6",
+        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=2146921"
       }
     },
     {
@@ -42,17 +42,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -80.2182527,
-          26.0465413
+          -80.039191,
+          26.779013
         ]
       },
       "properties": {
-        "name": "Brandon Asian Cuisine",
-        "address": "6417 Stirling Road",
-        "city": "Davie",
-        "date": "10/01/2026",
+        "name": "The Buccaneer Waterfront Bar and Grill",
+        "address": "142 Lake Drive",
+        "city": "Palm Beach Shores",
+        "date": "10/07/2026",
         "violations": "4",
-        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=6291687"
+        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=9068472"
       }
     }
   ]
