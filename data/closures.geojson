@@ -6,17 +6,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -80.2018098,
-          26.2690049
+          -80.1790631,
+          26.1063366
         ]
       },
       "properties": {
-        "name": "La Union Restaurant",
-        "address": "998 S State Rd 7",
-        "city": "Margate",
-        "date": "10/05/2026",
-        "violations": "12",
-        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=6937197"
+        "name": "Wings & More",
+        "address": "2525 W Davie Blvd",
+        "city": "Fort Lauderdale",
+        "date": "10/14/2026",
+        "violations": "9",
+        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=2447825"
       }
     },
     {
@@ -24,35 +24,35 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -80.3565045,
-          26.0295605
+          -80.3130962,
+          26.1456268
         ]
       },
       "properties": {
-        "name": "China One",
-        "address": "15711 Sheridan St",
-        "city": "Davie",
-        "date": "10/07/2026",
-        "violations": "6",
-        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=2146921"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -80.039191,
-          26.779013
-        ]
-      },
-      "properties": {
-        "name": "The Buccaneer Waterfront Bar and Grill",
-        "address": "142 Lake Drive",
-        "city": "Palm Beach Shores",
-        "date": "10/07/2026",
+        "name": "Denny's",
+        "address": "12100 W Sunrise Blvd",
+        "city": "Plantation",
+        "date": "10/14/2026",
         "violations": "4",
-        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=9068472"
+        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=7374619"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.2018437,
+          26.2847307
+        ]
+      },
+      "properties": {
+        "name": "Keke's Breakfast Cafe",
+        "address": "7609 N State Rd 7",
+        "city": "Coconut Creek",
+        "date": "10/12/2026",
+        "violations": "10",
+        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=9052875"
       }
     }
   ]
