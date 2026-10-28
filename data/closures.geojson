@@ -6,17 +6,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -80.1790631,
-          26.1063366
+          -80.2018098,
+          26.2690049
         ]
       },
       "properties": {
-        "name": "Wings & More",
-        "address": "2525 W Davie Blvd",
-        "city": "Fort Lauderdale",
-        "date": "10/14/2026",
-        "violations": "9",
-        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=2447825"
+        "name": "Bagel Time & Bakery Cafe",
+        "address": "2478 N State Road 7",
+        "city": "Margate",
+        "date": "10/20/2026",
+        "violations": "1",
+        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=8713219"
       }
     },
     {
@@ -24,17 +24,53 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -80.3130962,
-          26.1456268
+          -80.1878863,
+          26.186527
         ]
       },
       "properties": {
-        "name": "Denny's",
-        "address": "12100 W Sunrise Blvd",
-        "city": "Plantation",
-        "date": "10/14/2026",
+        "name": "Family Kitchen Restaurant & Catering",
+        "address": "3134 W Commercial Blvd",
+        "city": "Tamarac",
+        "date": "10/19/2026",
+        "violations": "7",
+        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=8902030"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.2514483,
+          26.0930211
+        ]
+      },
+      "properties": {
+        "name": "Ushio Sushi",
+        "address": "2211 S University Drive",
+        "city": "Davie",
+        "date": "10/21/2026",
+        "violations": "5",
+        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=9331347"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.2501749,
+          26.2623833
+        ]
+      },
+      "properties": {
+        "name": "Phat Boy Sushi",
+        "address": "2702 N University Drive",
+        "city": "Coral Springs",
+        "date": "10/22/2026",
         "violations": "4",
-        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=7374619"
+        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=7701209"
       }
     },
     {
@@ -42,17 +78,53 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -80.2018437,
-          26.2847307
+          -80.2054675,
+          26.0759501
         ]
       },
       "properties": {
-        "name": "Keke's Breakfast Cafe",
-        "address": "7609 N State Rd 7",
-        "city": "Parkland",
-        "date": "10/12/2026",
-        "violations": "10",
-        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=9052875"
+        "name": "Smoothie Spot",
+        "address": "8902 State Road 84",
+        "city": "Davie",
+        "date": "10/22/2026",
+        "violations": "4",
+        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=9065343"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.0852759,
+          26.3581598
+        ]
+      },
+      "properties": {
+        "name": "The Vine Cafe",
+        "address": "1515 S Federal Highway",
+        "city": "Boca Raton",
+        "date": "10/22/2026",
+        "violations": "4",
+        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=9139898"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.0565934,
+          26.7485738
+        ]
+      },
+      "properties": {
+        "name": "Broadway Pizza & Subs",
+        "address": "4013 Broadway",
+        "city": "West Palm Beach",
+        "date": "10/22/2026",
+        "violations": "6",
+        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=6669596"
       }
     }
   ]
