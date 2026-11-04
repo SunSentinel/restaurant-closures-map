@@ -6,17 +6,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -80.2018098,
-          26.2690049
+          -80.3024631,
+          26.0082551
         ]
       },
       "properties": {
-        "name": "Bagel Time & Bakery Cafe",
-        "address": "2478 N State Road 7",
-        "city": "Margate",
-        "date": "10/20/2026",
-        "violations": "1",
-        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=8713219"
+        "name": "Miami Grill",
+        "address": "11501 Pines Blvd",
+        "city": "Pembroke Pines",
+        "date": "10/26/2026",
+        "violations": "2",
+        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=10165860"
       }
     },
     {
@@ -24,17 +24,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -80.1878863,
-          26.186527
+          -80.1333784,
+          26.1894192
         ]
       },
       "properties": {
-        "name": "Family Kitchen Restaurant & Catering",
-        "address": "3134 W Commercial Blvd",
-        "city": "Tamarac",
-        "date": "10/19/2026",
-        "violations": "7",
-        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=8902030"
+        "name": "Tulum Tacos Restaurant",
+        "address": "5052  N Dixie Highway",
+        "city": "Oakland Park",
+        "date": "10/28/2026",
+        "violations": "10",
+        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=9179572"
       }
     },
     {
@@ -42,71 +42,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -80.2514483,
-          26.0930211
+          -80.09003,
+          26.3622766
         ]
       },
       "properties": {
-        "name": "Ushio Sushi",
-        "address": "2211 S University Drive",
-        "city": "Davie",
-        "date": "10/21/2026",
-        "violations": "5",
-        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=9331347"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -80.2501749,
-          26.2623833
-        ]
-      },
-      "properties": {
-        "name": "Phat Boy Sushi",
-        "address": "2702 N University Drive",
-        "city": "Coral Springs",
-        "date": "10/22/2026",
-        "violations": "4",
-        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=7701209"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -80.2054675,
-          26.0759501
-        ]
-      },
-      "properties": {
-        "name": "Smoothie Spot",
-        "address": "8902 State Road 84",
-        "city": "Davie",
-        "date": "10/22/2026",
-        "violations": "4",
-        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=9065343"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -80.0852759,
-          26.3581598
-        ]
-      },
-      "properties": {
-        "name": "The Vine Cafe",
-        "address": "1515 S Federal Highway",
+        "name": "Miyi La Cubanita Cuban Cafe",
+        "address": "1332 NW 2nd Ave",
         "city": "Boca Raton",
-        "date": "10/22/2026",
-        "violations": "4",
-        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=9139898"
+        "date": "10/27/2026",
+        "violations": "5",
+        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=8985162"
       }
     },
     {
@@ -114,17 +60,71 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -80.0565934,
-          26.7485738
+          -80.092677,
+          26.4709036
         ]
       },
       "properties": {
-        "name": "Broadway Pizza & Subs",
-        "address": "4013 Broadway",
-        "city": "West Palm Beach",
-        "date": "10/22/2026",
-        "violations": "6",
-        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=6669596"
+        "name": "Taco Tuesdays Taqueria",
+        "address": "600 N Congress Ave",
+        "city": "Delray Beach",
+        "date": "10/29/2026",
+        "violations": "5",
+        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=9059708"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.6706432,
+          26.673392
+        ]
+      },
+      "properties": {
+        "name": "Wah Lan Chinese Restaurant",
+        "address": "989 S Main St",
+        "city": "Belle Glade",
+        "date": "10/28/2026",
+        "violations": "5",
+        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=4187531"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.0556159,
+          26.6157801
+        ]
+      },
+      "properties": {
+        "name": "Pomona Kitchen",
+        "address": "717  Lake Ave",
+        "city": "Lake Worth Beach",
+        "date": "10/29/2026",
+        "violations": "4",
+        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=9616605"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.0898919,
+          26.5469627
+        ]
+      },
+      "properties": {
+        "name": "Kekes Breakfast Cafe",
+        "address": "2206 N Congress Ave",
+        "city": "Boynton Beach",
+        "date": "10/29/2026",
+        "violations": "4",
+        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=8884109"
       }
     }
   ]
