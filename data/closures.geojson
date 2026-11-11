@@ -6,17 +6,35 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -80.3024631,
-          26.0082551
+          -80.134456,
+          26.2034271
+        ]
+      },
+      "properties": {
+        "name": "Dasara Indian Cuisine",
+        "address": "925 NE 62nd St",
+        "city": "Fort Lauderdale",
+        "date": "11/03/2026",
+        "violations": "11",
+        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=9509407"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.1507746,
+          26.136997
         ]
       },
       "properties": {
         "name": "Miami Grill",
-        "address": "11501 Pines Blvd",
-        "city": "Pembroke Pines",
-        "date": "10/26/2026",
-        "violations": "2",
-        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=10165860"
+        "address": "661 W Sunrise Blvd",
+        "city": "Fort Lauderdale",
+        "date": "11/04/2026",
+        "violations": "3",
+        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=8409572"
       }
     },
     {
@@ -24,17 +42,35 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -80.1333784,
-          26.1894192
+          -80.3218614,
+          26.1508513
         ]
       },
       "properties": {
-        "name": "Tulum Tacos Restaurant",
-        "address": "5052  N Dixie Highway",
+        "name": "Don Jediondo (inside Sawgrass Mills)",
+        "address": "12801 W Sunrise Blvd",
+        "city": "Sunrise",
+        "date": "11/06/2026",
+        "violations": "3",
+        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=9392229"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.1309825,
+          26.1674845
+        ]
+      },
+      "properties": {
+        "name": "Big Dog Station",
+        "address": "3148 NE 12th Ave",
         "city": "Oakland Park",
-        "date": "10/28/2026",
-        "violations": "10",
-        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=9179572"
+        "date": "11/03/2026",
+        "violations": "4",
+        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=3980377"
       }
     },
     {
@@ -42,17 +78,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -80.09003,
-          26.3622766
+          -80.1457587,
+          26.1370027
         ]
       },
       "properties": {
-        "name": "Miyi La Cubanita Cuban Cafe",
-        "address": "1332 NW 2nd Ave",
-        "city": "Boca Raton",
-        "date": "10/27/2026",
-        "violations": "5",
-        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=8985162"
+        "name": "Cuisine Lakay Restaurant",
+        "address": "119 W Sunrise Blvd",
+        "city": "Fort Lauderdale",
+        "date": "11/05/2026",
+        "violations": "4",
+        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=6299900"
       }
     },
     {
@@ -60,17 +96,35 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -80.092677,
-          26.4709036
+          -80.2558463,
+          26.2726079
         ]
       },
       "properties": {
-        "name": "Taco Tuesdays Taqueria",
-        "address": "600 N Congress Ave",
+        "name": "John the Baker",
+        "address": "9709  W Sample Road",
+        "city": "Coral Springs",
+        "date": "11/03/2026",
+        "violations": "6",
+        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=7557688"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.1179018,
+          26.4579164
+        ]
+      },
+      "properties": {
+        "name": "IHOP",
+        "address": "4745 W Atlantic Ave",
         "city": "Delray Beach",
-        "date": "10/29/2026",
-        "violations": "5",
-        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=9059708"
+        "date": "11/06/2026",
+        "violations": "7",
+        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=8710139"
       }
     },
     {
@@ -78,35 +132,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -80.6706432,
-          26.673392
+          -80.0994775,
+          26.8379967
         ]
       },
       "properties": {
-        "name": "Wah Lan Chinese Restaurant",
-        "address": "989 S Main St",
-        "city": "Belle Glade",
-        "date": "10/28/2026",
-        "violations": "5",
-        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=4187531"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -80.0556159,
-          26.6157801
-        ]
-      },
-      "properties": {
-        "name": "Pomona Kitchen",
-        "address": "717  Lake Ave",
-        "city": "Lake Worth Beach",
-        "date": "10/29/2026",
+        "name": "MacArthur's Bar & Grill (inside Palm Beach Gardens Marriott)",
+        "address": "4000 RCA Blvd",
+        "city": "Palm Beach Gardens",
+        "date": "11/05/2026",
         "violations": "4",
-        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=9616605"
+        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=6913823"
       }
     },
     {
@@ -114,17 +150,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -80.0898919,
-          26.5469627
+          -80.0851525,
+          26.5279372
         ]
       },
       "properties": {
-        "name": "Kekes Breakfast Cafe",
-        "address": "2206 N Congress Ave",
+        "name": "La Brasa Grill",
+        "address": "1315 W Boynton Beach Blvd",
         "city": "Boynton Beach",
-        "date": "10/29/2026",
+        "date": "11/02/2026",
         "violations": "4",
-        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=8884109"
+        "url": "https://www.myfloridalicense.com/inspectionDates.asp?SID=&id=6509742"
       }
     }
   ]
